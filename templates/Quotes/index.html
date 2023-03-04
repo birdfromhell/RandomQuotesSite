@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quotes</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+<div class="card">
+  <p>
+    {{ Author }}
+  </p>
+  <h2>
+    "{{ Quotes }}"
+  </h2>
+</div>
+</body>
+<script>
+    setTimeout(() => {
+  document.location.reload();
+}, 3000);
+</script>
+</html>
