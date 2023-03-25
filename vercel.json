@@ -2,7 +2,6 @@
     "builds": [{
         "src": "RandomQuotesSite/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb" }
     }],
     "routes": [
         {
