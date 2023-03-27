@@ -1,1 +1,1 @@
-web: gunicorn LinkShoertner.wsgi
+web: gunicorn RandomQuotesSite.wsgi
